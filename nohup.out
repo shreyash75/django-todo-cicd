@@ -1,0 +1,130 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+November 24, 2023 - 22:20:05
+Django version 4.2.7, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+[24/Nov/2023 22:21:12] "GET /todos/ HTTP/1.1" 200 3515
+[24/Nov/2023 22:21:12] "GET /todos/ HTTP/1.1" 200 3515
+[24/Nov/2023 22:21:12] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[24/Nov/2023 22:21:13] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[24/Nov/2023 22:21:13] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[24/Nov/2023 22:21:14] "GET /favicon.ico HTTP/1.1" 404 2574
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+November 24, 2023 - 22:22:02
+Django version 4.2.7, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+[24/Nov/2023 22:22:08] "GET /todos/ HTTP/1.1" 200 3515
+Not Found: /favicon.ico
+[24/Nov/2023 22:22:08] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[24/Nov/2023 22:22:09] "GET /favicon.ico HTTP/1.1" 404 2574
+[25/Nov/2023 01:03:29] "GET /todos/ HTTP/1.1" 200 3515
+[25/Nov/2023 01:03:29] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[25/Nov/2023 01:03:30] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[25/Nov/2023 01:03:30] "GET /favicon.ico HTTP/1.1" 404 2574
+[25/Nov/2023 01:04:17] "POST /todos/add/ HTTP/1.1" 302 0
+[25/Nov/2023 01:04:17] "GET /todos/ HTTP/1.1" 200 4094
+Not Found: /favicon.ico
+[25/Nov/2023 01:04:18] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[25/Nov/2023 01:04:19] "GET /favicon.ico HTTP/1.1" 404 2574
+[25/Nov/2023 01:04:19] "POST /todos/22/update HTTP/1.1" 302 0
+[25/Nov/2023 01:04:20] "GET /todos/ HTTP/1.1" 200 4131
+Not Found: /favicon.ico
+[25/Nov/2023 01:04:20] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[25/Nov/2023 01:04:21] "GET /favicon.ico HTTP/1.1" 404 2574
+[25/Nov/2023 01:04:27] "POST /todos/add/ HTTP/1.1" 302 0
+[25/Nov/2023 01:04:27] "GET /todos/ HTTP/1.1" 200 4722
+Not Found: /favicon.ico
+[25/Nov/2023 01:04:28] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[25/Nov/2023 01:04:29] "GET /favicon.ico HTTP/1.1" 404 2574
+[25/Nov/2023 01:04:29,164] - Broken pipe from ('103.133.65.76', 62849)
+[25/Nov/2023 01:04:31] "POST /todos/add/ HTTP/1.1" 302 0
+[25/Nov/2023 01:04:31] "GET /todos/ HTTP/1.1" 200 5301
+Not Found: /favicon.ico
+[25/Nov/2023 01:04:32] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[25/Nov/2023 01:04:32] "GET /favicon.ico HTTP/1.1" 404 2574
+[25/Nov/2023 01:05:11] "GET /todos/24/delete HTTP/1.1" 302 0
+[25/Nov/2023 01:05:11] "GET /todos/ HTTP/1.1" 200 4722
+Not Found: /favicon.ico
+[25/Nov/2023 01:05:12] "GET /favicon.ico HTTP/1.1" 404 2574
+[25/Nov/2023 01:05:12] "GET /todos/23/delete HTTP/1.1" 302 0
+[25/Nov/2023 01:05:12] "GET /todos/ HTTP/1.1" 200 4131
+Not Found: /favicon.ico
+[25/Nov/2023 01:05:12] "GET /favicon.ico HTTP/1.1" 404 2574
+[25/Nov/2023 01:05:13,068] - Broken pipe from ('103.133.65.76', 62867)
+[25/Nov/2023 01:05:13] "GET /todos/22/delete HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[25/Nov/2023 01:05:13] "GET /favicon.ico HTTP/1.1" 404 2574
+[25/Nov/2023 01:05:13] "GET /todos/ HTTP/1.1" 200 3515
+Not Found: /favicon.ico
+[25/Nov/2023 01:05:13] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[25/Nov/2023 01:05:14] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[25/Nov/2023 01:05:14] "GET /favicon.ico HTTP/1.1" 404 2574
+[25/Nov/2023 03:49:15] code 400, message Bad request version ('À\x13À')
+[25/Nov/2023 03:49:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Nov/2023 03:49:15] code 400, message Bad request version ('À(À$À\x14À')
+[25/Nov/2023 03:49:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Nov/2023 06:31:37] "GET / HTTP/1.1" 302 0
+[25/Nov/2023 06:31:50] "GET / HTTP/1.1" 302 0
+[25/Nov/2023 06:31:50] "GET /todos HTTP/1.1" 301 0
+[25/Nov/2023 06:31:50] "GET /todos/ HTTP/1.1" 200 3515
+Not Found: /favicon.ico
+[25/Nov/2023 06:32:00] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /http:/api.ipify.org/
+[25/Nov/2023 06:32:04] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[25/Nov/2023 06:32:14] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[25/Nov/2023 08:15:52] code 400, message Bad request version ('À\x14À')
+[25/Nov/2023 08:15:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Nov/2023 08:33:17] "GET / HTTP/1.0" 302 0
+[25/Nov/2023 09:07:24] "GET / HTTP/1.1" 302 0
+[25/Nov/2023 09:07:24] "GET /todos HTTP/1.1" 301 0
+[25/Nov/2023 09:07:24] "GET /todos/ HTTP/1.1" 200 3515
+Not Found: /favicon.ico
+[25/Nov/2023 09:07:25] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /http:/uplo.ad/
+[25/Nov/2023 12:11:49] "GET http://uplo.ad/?v=1&ip=16.16.215.229&port=8001 HTTP/1.1" 404 1821
+[25/Nov/2023 13:02:56,906] - Broken pipe from ('69.164.217.245', 54226)
+[25/Nov/2023 13:02:58] "GET / HTTP/1.1" 302 0
+[25/Nov/2023 13:02:58,807] - Broken pipe from ('69.164.217.245', 54227)
+[25/Nov/2023 13:03:14] "GET / HTTP/1.1" 302 0
+[25/Nov/2023 13:45:55] code 400, message Bad request version ('À\x14À')
+[25/Nov/2023 13:45:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Nov/2023 14:51:33] "GET /todos/ HTTP/1.1" 200 3515
+[25/Nov/2023 14:51:34] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[25/Nov/2023 14:51:34] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /favicon.ico
+[25/Nov/2023 14:51:35] "GET /favicon.ico HTTP/1.1" 404 2574
